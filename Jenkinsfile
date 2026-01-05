@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'master',
+                git branch: 'main',
                 url: 'https://github.com/sayali12-cloud/Terraform-Jenkins.git'
             }
         }
@@ -33,6 +33,7 @@ pipeline {
         }
     }
 }
+
 
 
 
