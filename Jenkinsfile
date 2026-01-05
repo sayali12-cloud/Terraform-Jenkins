@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'main',
+                git branch: 'master',
                 url: 'https://github.com/<username>/terraform-ec2-jenkins.git'
             }
         }
@@ -33,4 +33,5 @@ pipeline {
         }
     }
 }
+
 
